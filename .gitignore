@@ -1,0 +1,22 @@
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+**/*.tfvars.json
+**/tfplan
+
+# Sensitive migration data
+**/migration-data/
+**/*.sql
+
+# AWS / credentials
+.aws/
+credentials
+credentials.*
+config
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
